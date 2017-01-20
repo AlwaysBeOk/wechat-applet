@@ -1,0 +1,16 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.heart{
+  background-color: red;
+}
+.time{
+  margin-top: 15rpx;
+  padding-left: 40rpx;
+}
+.author{
+  margin-top: 10rpx;
+  padding-left: 40rpx;
+}

@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/aboutme/aboutme",
+    "pages/lists/lists"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#FF99FF",
+    "navigationBarTitleText": "小天使FIGHTING",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":"true",
+    "backgroundColor":"#99FF99"
+  },
+  "tabBar": {
+    "color":"deeppink",
+    "selectedColor": "skyblue",
+    "backgroundColor": "white",
+    "position":"bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/1.jpg",
+      "selectedIconPath": "images/1.jpg"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "详情页",
+      "iconPath": "images/2.jpg",
+      "selectedIconPath": "images/2.jpg"
+    },{
+      "pagePath": "pages/about/about",
+      "text": "关于",
+      "iconPath": "images/3.jpg",
+      "selectedIconPath": "images/3.jpg"
+    }]
+  }
+
+  
+}

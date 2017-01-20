@@ -1,0 +1,7 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="bindViewTap">
+    关于我们
+  </view>
+</view>

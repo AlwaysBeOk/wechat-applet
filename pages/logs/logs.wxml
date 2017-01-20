@@ -1,0 +1,9 @@
+
+<!--logs.wxml-->
+<page>
+  <view class="container log-list">
+    <text>从前有个人人，来到了北京。来的时候懵懵懂懂，虽然懵懂，但心中怀揣着梦想和坚持，经过...之后，下集再续</text>
+  </view>
+  <view class="time" hover="true" hover-class="heart"> 发表时间<text>{{time}}</text></view>
+  <view class="author">笔者：{{author}}</view>
+</page>

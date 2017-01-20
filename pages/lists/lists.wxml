@@ -1,0 +1,11 @@
+
+<!--lists.wxml-->
+<view class="container">
+  <template name="msgItem">
+    <image src="{{src}}"></image>
+    <text>{{msg}}</text>
+  </template>
+  <block wx:for="{{lists}}">
+      <template is="msgItem" data="{{...item}}"/>
+  </block>
+</view>
