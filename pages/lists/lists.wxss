@@ -1,4 +1,4 @@
-/**index.wxss**/
+/**lists.wxss**/
 page{
   /*height: 100%;*/
   height: auto;
